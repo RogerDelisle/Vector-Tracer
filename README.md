@@ -6,13 +6,14 @@ This application will record user mouse movements in real-time to record a trace
 The source code is currently implemented using the Qt platform.  I'm currently still working on the Digital Signal Processing portion and it will be uploaded in early April 2018. Meanwhile, the user interface and real-time animation portion compile and work well.
 
 ## Environment
-I've compiled this using Qt Creator 4.5.1 (Based on Qt 5.10.1) and compiling using MSVC 2015, 64-bits on x86. Even though I haven't yet much effort on portability at this early stage of the implementation, your comments on any portability issues you encounter are most welcome.
+I've compiled this using Qt Creator 4.5.1 (Based on Qt 5.10.1) and compiling using MSVC 2015, 64-bits on x86. Even though I haven't yet much effort on portability at this early stage of the implementation, your comments on any portability issues you encounter are most welcome. If you are interested in my MFC version of this project, please contact me.
 
 ## Language Features, Classes, Techniques
 
 - C++
 - Qt Widgets
 - Qt Signal/Slot communications
+- Qt Widget promotion
 - Unconventional User Interface
 - Use of STL containers such as std::vector<>, std::map<>
 - Use of a variadic template to process a parameter pack
