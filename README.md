@@ -19,6 +19,7 @@ I've compiled this using Qt Creator 4.5.1 (Based on Qt 5.10.1) and compiling usi
 - Use of STL containers such as std::vector<>, std::map<>
 - Use of a variadic template to process a parameter pack
 - Real-time programming and example of using the std::chrono STL templates.
+- Digital Signal Processing (DSP)
 
 
 # Installation
