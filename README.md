@@ -14,6 +14,7 @@ I've compiled this using Qt Creator 4.5.1 (Based on Qt 5.10.1) and compiling usi
 - Qt Widgets
 - Qt Signal/Slot communications
 - Qt Widget promotion
+- User interface animation by using the QPropertyAnimation class
 - Unconventional User Interface
 - Use of STL containers such as std::vector<>, std::map<>
 - Use of a variadic template to process a parameter pack
