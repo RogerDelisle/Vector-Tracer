@@ -3,7 +3,10 @@
 This application will record user mouse movements in real-time to record a trace that can be replicated on screen. But the important feature of this project will be to transmit this vector over RF by modulating the x-y coordinates of the trace in real-time over I/Q dimensions. Demodulation is designed to be possible with a simple 2-channel oscilloscope.
 
 ## Status
-The source code is currently implemented using the Qt platform.  I'm currently still working on the Digital Signal Processing portion and it will be uploaded in early April 2018. Meanwhile, the user interface and real-time animation portion compile and work well.
+The source code is currently implemented using the Qt platform.  I'm currently still working on the Digital Signal Processing (DSP) portion and it will be uploaded in early April 2018. Meanwhile, the user interface and real-time animation portion compile and work well.
+
+## Next Steps
+Generation of the audio signal using DSP will generate a buffer of the x-axis tracing on the real (I) portion of the signal and the y-axis tracing on the imaginary (Q) portion of the signal. 
 
 ## Environment
 I've compiled this using Qt Creator 4.5.1 (Based on Qt 5.10.1) and compiling using MSVC 2015, 64-bits on x86. Even though I haven't yet put much effort on portability at this early stage of the implementation, your comments on any portability issues you encounter are most welcome. If you are interested in my MFC version of this project, please contact me.
